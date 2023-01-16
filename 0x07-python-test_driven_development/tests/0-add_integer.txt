@@ -1,20 +1,4 @@
-
-'''
-# Importing the required function
->>> from importlib import import_module
->>> add_integer = import_module('0-add_integer').add_integer
-
-# Valid test arguments
->>> add_integer(3, 4)
-7
->>> add_integer(2)
-100
->>> add_integer(1.2, 5.8)
-6
-
-# Test for invalid arguments
->>> try:
-...     add_integer('3', 3)
+..     add_integer('3', 3)
 ... except TypeError as ex:
 ...     print(ex.args[0])
 a must be an integer
@@ -50,3 +34,4 @@ cannot convert float infinity to integer
 cannot convert float NaN to integer
 
 '''
+
